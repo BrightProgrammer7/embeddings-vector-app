@@ -6,7 +6,8 @@ const res = await client.data
   .withClassName("Meme")
   .withProperties({
     // image: b64,
-    text: "mr robot",
+    // text: "mr robot",
+    text: "Hello World",
   })
   .do();
 

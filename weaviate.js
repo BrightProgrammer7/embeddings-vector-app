@@ -3,13 +3,15 @@ import weaviate, {  ApiKey } from "weaviate-ts-client";
 import dotenv from "dotenv";
 dotenv.config();
 
-// Initialize the API client and fetch the schema
+// Initialize the API client and fetch the schema 
 // const client = weaviate.client({
 //     scheme: 'http',
 //     host: 'localhost:8080',
 // });
 
 // const client: WeaviateClient = weaviate.client({
+
+// Initialize the API client and fetch the schema from weaviate db and Text-embedding-ada-002-v2 model
 export const client = weaviate.client({
   scheme: "https",
   host: "embeddings-vector-app-wjtf1n4i.weaviate.network",

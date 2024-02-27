@@ -14,7 +14,7 @@ const client = new ChromaClient({ path: "http://localhost:8000", database: "./ch
 //   console.log(`Server is listening on port: ${PORT}`);
 // });
 
-// Define a embedding function using the text-embedding-3-large/small || text-embedding-ada-002 model of OpenaAI
+// Define a embedding function using the text-embedding-3-large/small || text-embedding-ada-002 model of OpenaAI 
 const embedder = new OpenAIEmbeddingFunction({
   openai_api_key: process.env.OPENAI_API,
 });

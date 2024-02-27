@@ -1,0 +1,21 @@
+{
+  "name": "embeddings-vector-app",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "chromadb": "^1.8.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "weaviate-ts-client": "^2.0.0"
+  },
+  "scripts": {
+    "chroma": "node chroma",
+    "docker-compose": " docker-compose -f chroma/docker-compose.yml -p chroma up -d --build"
+  },
+  "main": "chroma.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
